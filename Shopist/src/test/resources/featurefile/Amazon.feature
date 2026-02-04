@@ -6,6 +6,16 @@ Feature: To validate the Amazon Functionality
     When user enters the product name "Mouse" in search box
     And user clicks the search icon
     Then user validates the title of search result page
+    @multiple
+  Scenario Outline: Search Functionality with multiple test data
+    When user enters the product name "<Product Name>" in search box
+    And user clicks the search icon
+    Then user validates the title of search result page
+    Examples:
+    |Product Name|
+    |iphone      |
+    |laptop      |
+    |keyboard    |
 
   Scenario: sign in validation
     Given user navigate to Amazon Homepage
