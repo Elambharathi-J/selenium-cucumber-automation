@@ -1,6 +1,6 @@
 Feature: To validate the Amazon Functionality
   #before
-  @sc01
+  @sc01 @Learnmore
   Scenario: Search Functionality
     #Given user navigate to Amazon Homepage
     When user enters the product name "Mouse" in search box
