@@ -23,4 +23,7 @@ public class AmazonHomePage {
     public void selectValueFromCategoryDropdown(){
 
     }
+    public void getPageTitle(){
+
+    }
 }
