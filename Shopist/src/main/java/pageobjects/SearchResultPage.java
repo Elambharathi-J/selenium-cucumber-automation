@@ -3,8 +3,6 @@ package pageobjects;
 import org.openqa.selenium.By;
 import reusablecode.LaunchBrowser;
 
-
-
 public class SearchResultPage extends LaunchBrowser {
     public void selectProductFromSearchResult(int resultIndex){
 
@@ -12,6 +10,7 @@ public class SearchResultPage extends LaunchBrowser {
 
     }
     public void getSearchPageTitle(){
+
         driver.getTitle();
     }
 }
